@@ -1,0 +1,49 @@
+---
+title: "Performing queries on the 'poisson' API"
+author: "Benoit Richard, Pascal Irz & David Dorchies"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{example_niveaux_nappes_api}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.width = 6,
+  fig.asp = 0.618,
+  out.width = "70%",
+  fig.align = "center"
+)
+#load(system.file("vignettes/example_niveaux_nappes_api.RData", package = "hubeau"))
+```
+
+This vignette shows how to use the [`hubeau` R package](https://github.com/inrae/hubeau) in order to retrieve data of river electrofishing surveys carried out by the French Biodiversity Agency ([OFB](https://www.ofb.gouv.fr/)) and their partners from the [API "Poisson"](https://hubeau.eaufrance.fr/page/api-poisson) of the [Hub'eau](https://hubeau.eaufrance.fr/) portal. 
+
+The data includes observations, indicators, operations and sampling sites, which are stored in the ASPE (“Application de Saisie des données Piscicoles et Environnementales”) database administrated by the French Biodiversity Agency. A more precise description of the ASPE database may be found in Irz *et al.* (2022).
+
+> Irz P, Vigneron T, Poulet N, Cosson E, Point T, Baglinière E, Porcher JP. 2022. A long-term monitoring database on fish and crayfish species in French rivers. *Knowl. Manag. Aquat. Ecosyst.* 423, 25, [DOI:10.1051/kmae/2022021](https://doi.org/10.1051/kmae/2022021).
+
+We illustrate the use of this API for the departement of Calvados (`code_departement=14`) with some example of maps and charts useful for the interpretation of these data.
+
+```{r}
+my_dept <- "14"
+```
+
+# Getting started
+
+# Retrieving the data
+
+## Sites
+
+## Surveys
+
+## Observations
+
+
+
+
+
